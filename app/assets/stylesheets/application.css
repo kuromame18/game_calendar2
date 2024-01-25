@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/*トップページ*/
+.main-visual {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.top-title {
+  background-image: url("top.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 250px;
+  font-size: 120px;
+  position: relative;
+  z-index: 10;
+}
+
+.top-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: -1; /* -1 に変更することで .top-title よりも背後に配置 */
+  height: 45%;
+  box-sizing: border-box; /* ボックスモデルを変更して padding を含めた高さにする */
+}
