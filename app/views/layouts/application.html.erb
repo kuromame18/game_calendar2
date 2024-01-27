@@ -11,7 +11,12 @@
   </head>
 
   <body>
-    <%= render "layouts/header" %>
+    <div>
+      <%= render "layouts/sp_menu" %>
+    </div>
+    <div class="header">
+      <%= render "layouts/header" %>
+    </div>
     <%= yield %>
     <script src="<%= asset_path('jquery.min.js') %>"></script>
     <script src="<%= asset_path('app.js') %>"></script>
