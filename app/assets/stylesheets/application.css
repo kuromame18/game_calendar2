@@ -109,6 +109,7 @@ body {
 }
 
 .sp-menu-title {
+  margin: 75px 0 30px;
   text-align: center;
 }
 
@@ -125,27 +126,43 @@ body {
 /*トップページ*/
 .main-visual {
   width: 100%;
-  text-align: center;
   position: relative;
+  text-align: center;
 }
 
-.top-title {
+.top-cover {
   background-image: url("top.jpg");
   background-size: cover;
   background-position: center;
   padding: 250px;
-  font-size: 120px;
   position: relative;
   z-index: 5;
 }
 
-.top-title::after {
+.top-cover::after {
   content: '';
   position: absolute;
+  top: 38%;
   left: 0;
   right: 0;
   background-color: rgba(255, 255, 255, 0.3);
+  height: 38%;
   z-index: -1;
-  height: 28%;
-  box-sizing: border-box;
+}
+
+.top-title {
+  font-size: 120px;
+}
+
+.top-start-btn {
+  position: absolute;
+  font-size: 50px;
+  z-index: 5;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.damy {
+  height: 1000px;
 }
