@@ -30,6 +30,10 @@ body {
   background-color: black;
 }
 
+a {
+  color: red;
+}
+
 /*ヘッダー*/
 .header {
   height: 80px;
@@ -163,6 +167,40 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.damy {
-  height: 1000px;
+#explain {
+  padding: 50px;
+}
+
+.explain-items {
+  display: flex;
+}
+
+.explain-title {
+  color: #fff;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.explain-2 {
+  padding: 0 50px;
+}
+
+.explain-heading {
+  color: #fff;
+}
+
+.explain-text {
+  color: #fff;
+  padding: 10px;
+}
+
+.img-box {
+  background-color: #fff;
+  width: 400px;
+  height: 300px;
+}
+
+.registration-btn {
+  padding-top: 15px;
+  font-size: 25px;
 }

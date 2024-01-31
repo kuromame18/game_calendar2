@@ -1,9 +1,35 @@
 <div class="main-visual">
   <div class="top-cover">
     <h1 class="top-title">ShereCale</h1>
-    <p class="top-start-btn">
-      <%= link_to '始めよう！', new_user_registration_path %>
-    </p>
+    <a href="#explain", class="top-start-btn">始めよう！</a>
   </div>
 </div>
-<div class="damy"></div>
+<div id="explain">
+  <h2 class="explain-title">始める前に</h2>
+  <div class="explain-items">
+    <div class="explain-1">
+      <h3 class="explain-heading">1.会員登録</h3>
+      <p class="explain-text">
+        必要事項を入力し会員登録します。
+      </p>
+      <div class="img-box"></div>
+    </div>
+    <div class="explain-2">
+      <h3 class="explain-heading">2.会員登録後</h3>
+      <p class="explain-text">
+        以下のページに移動します。
+      </p>
+      <div class="img-box"></div>
+    </div>
+    <div class="explain-3">
+      <h3 class="explain-heading">3.スタート</h3></h3>
+      <p class="explain-text">
+        開始を押してスタート！
+      </p>
+      <div class="img-box"></div>
+    </div>
+  </div>
+  <div class="registration-btn">
+    <%= link_to "会員登録はこちら", new_user_registration_path %>
+  </div>
+</div>
