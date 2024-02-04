@@ -204,3 +204,15 @@ a {
   padding-top: 15px;
   font-size: 25px;
 }
+
+/*説明欄*/
+#explain {
+  opacity: 0;
+  transform: translateY(75px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+#explain.active {
+  opacity: 1;
+  transform: translateY(0);
+}
