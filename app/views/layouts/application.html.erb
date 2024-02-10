@@ -20,5 +20,6 @@
     <%= yield %>
     <script src="<%= asset_path('jquery.min.js') %>"></script>
     <script src="<%= asset_path('app.js') %>"></script>
+    <%= javascript_importmap_tags %>
   </body>
 </html>

@@ -217,7 +217,7 @@ a {
   transform: translateY(0);
 }
 
-/*新規会員登録画面*/
+/*新規会員登録・ログイン画面*/
 .registration-item {
   text-align: center;
   margin-top: 25px;
@@ -248,5 +248,14 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 
 .login-guide {
+  color: #fff;
+}
+
+.session-item {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.registration-guide {
   color: #fff;
 }
