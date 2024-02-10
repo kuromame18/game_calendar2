@@ -216,3 +216,37 @@ a {
   opacity: 1;
   transform: translateY(0);
 }
+
+/*新規会員登録画面*/
+.registration-item {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.field {
+  color: #00ff00;
+  font-size: 20px;
+  padding-bottom: 25px;
+  box-sizing: border-box;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 500px;
+  height: 30px;
+}
+
+.actions {
+  padding-bottom: 15px;
+}
+
+.actions input[type="submit"] {
+  width: 500px;
+  background-color: #ffa500;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+}
+
+.login-guide {
+  color: #fff;
+}
