@@ -259,3 +259,26 @@ input[type="text"], input[type="email"], input[type="password"] {
 .registration-guide {
   color: #fff;
 }
+
+/*ユーザーページ*/
+.users-info {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.user-title {
+  color: #7cfc00;
+  font-size: 35px;
+}
+
+.user-name-header {
+  color: #fff;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.user-name {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 25px;
+}

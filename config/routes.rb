@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   }
   scope module: :public do
     root to: "homes#top"
+    resources :users, only: [:show]
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
